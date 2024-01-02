@@ -1,5 +1,9 @@
 <template>
   <div class="h-screen">
-    Init Project
+    <Navbar />
   </div>
 </template>
+
+<script setup lang="ts">
+import Navbar from '@/components/Navbar/Navbar.vue'
+</script>
