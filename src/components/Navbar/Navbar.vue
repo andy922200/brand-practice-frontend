@@ -1,6 +1,6 @@
 <template>
   <nav class="p-1 h-15 flex flex-wrap justify-between items-center bg-green">
-    <div>Company Icon</div>
+    <div></div>
     <HamburgerIcon
       :is-open="isHamburgerIconOpen"
       class="z-4"
