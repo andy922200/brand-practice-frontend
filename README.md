@@ -1,18 +1,60 @@
-# Vue 3 + TypeScript + Vite
+# Brand Price Frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Table of Contents
+- [Recommended IDE Setup](#recommended-ide-setup)
+- [About this project](#about-this-project)
+- [Prerequisites](#prerequisites)
 
 ## Recommended IDE Setup
+- [VSCode](https://code.visualstudio.com/) + [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## About this project 
+<p>The project includes the following packages:</p>
 
-## Type Support For `.vue` Imports in TS
+- [Vue](https://vuejs.org/) - The Progressive JavaScript Framework
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [TypeScript](https://www.typescriptlang.org/) - TypeScript extends JavaScript by adding types.
+- [ESLint](https://eslint.org/) - Find and fix problems in your JavaScript code
+- [Prettier](https://prettier.io/) - Opinionated Code Formatter
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Prerequisites
+<p>請先安裝好 Node.js 環境 & pnpm</p>
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- [npm](https://www.npmjs.com/get-npm)
+- [Node.js](https://nodejs.org/en/download/)
+- [pnpm](https://pnpm.io/zh-TW/)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```
+$ git clone https://github.com/andy922200/brand-practice-frontend.git
+```
+
+## Related Scripts
+
+**1. Enter the project folder**
+```
+> Open a new terminal window and enter the folder
+$ cd <project folder>
+```
+**2. Install packages via npm**
+```
+$ pnpm install
+```
+**3. For development**
+```
+$ pnpm dev
+```
+**4. Fix the coding style automatically**
+```
+$ pnpm lint
+```
+**5. Build Project**
+```
+$ pnpm build
+/* output dir is dist*/
+```
+**6. Deploy on the server**
+```
+$ pnpm run deploy
+```
+## Author
+- [Andy Lien](https://github.com/andy922200)
